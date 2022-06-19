@@ -22,7 +22,7 @@ public class TestController {
 	
 	
 	@GetMapping("/tests")
-	public List<TestModel> buys() {
+	public List<TestModel> getAllTests() {
 		return testRepo.findAll();
 	}
 }
